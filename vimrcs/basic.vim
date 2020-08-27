@@ -381,3 +381,28 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
+
+" my setting
+"
+noremap <Up> <Nop>
+nnoremap <Up> <Nop>
+
+inoremap <Down> <Nop>
+nnoremap <Down> <Nop>
+ 
+inoremap <Left> <Nop>
+nnoremap <Left> <Nop>
+ 
+inoremap <Right> <Nop>
+nnoremap <Right> <Nop>
+
+inoremap jj <Esc>
+nnoremap H ^ 
+nnoremap L $ 
+nnoremap ,h H
+nnoremap ,l L
+ 
+set  number
+set  relativenumber
+
+
